@@ -1,5 +1,6 @@
 .locations {
-
+    background-color: rgba(207, 48, 48, 0.281);
+    margin: .5rem 0 .5rem 0;
 }
 
 .location__card {

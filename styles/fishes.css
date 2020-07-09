@@ -1,32 +1,31 @@
 .fishes {
+    background-color: rgba(65, 105, 225, 0.397);
     border: 1px solid rgb(116, 4, 82);
-    margin-right: 1rem;
+    margin: .5rem 0 .5rem 0
 }
 
 .fishCard {
-    border: 1px solid rgb(100, 2, 0);
     display: flex;
     flex-direction: column;
 }
 
 .fish__image {
     height: 5rem;
-    display: flex;
 }
 
 .fish__name {
-    display: flex;
+
 }
 .fish__species {
-    display: flex
+
 }
 .fish__length {
-    display: flex
+
 }
 .fish__location {
-    display: flex
+
 }
 .fish__diet {
-    display: flex
+
 }
 
