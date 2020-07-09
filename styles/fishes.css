@@ -1,13 +1,14 @@
 .fishes {
-
+    border: 1px solid rgb(116, 4, 82);
+    margin-right: 1rem;
 }
 
 .fishCard {
-
+    border: 1px solid rgb(100, 2, 0)
 }
 
 .fish__image {
-
+    height: 5rem;
 }
 
 .fish__name {
