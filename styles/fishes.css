@@ -4,26 +4,29 @@
 }
 
 .fishCard {
-    border: 1px solid rgb(100, 2, 0)
+    border: 1px solid rgb(100, 2, 0);
+    display: flex;
+    flex-direction: column;
 }
 
 .fish__image {
     height: 5rem;
+    display: flex;
 }
 
 .fish__name {
-
+    display: flex;
 }
 .fish__species {
-
+    display: flex
 }
 .fish__length {
-
+    display: flex
 }
 .fish__location {
-
+    display: flex
 }
 .fish__diet {
-
+    display: flex
 }
 
