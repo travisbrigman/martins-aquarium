@@ -1,3 +1,9 @@
 .tips {
     background-color: rgba(73, 255, 143, 0.801);
+    padding: .25rem 0 .5rem 0;
+    border-radius: 25px;
+}
+
+.tip_list {
+    padding: 1rem 0 1rem 0;
 }

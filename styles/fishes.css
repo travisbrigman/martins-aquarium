@@ -1,12 +1,13 @@
 .fishes {
     background-color: rgba(65, 105, 225, 0.397);
-    border: 1px solid rgb(116, 4, 82);
-    margin: .5rem 0 .5rem 0
+    padding: .25rem 0 .5rem 0;
+    border-radius: 25px;
 }
 
 .fishCard {
     display: flex;
     flex-direction: column;
+    padding: 0 0 0 1rem;
 }
 
 .fish__image {
