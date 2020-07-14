@@ -1,7 +1,11 @@
 const fishCollection = [
     {
-        name: "Bart",
-        food: "crustaceans"
+        name: "Sebastian",
+        food: "Plankton",
+        species: "Crab",
+        length: .25,
+        location: "Atlantis",
+        image: "./images/Sebastian.png"
     },
     {
         name: "Dory",
@@ -9,7 +13,7 @@ const fishCollection = [
         species: "Blue Tang",
         length: 4,
         location: "Great Barrier Reef",
-        image: ""
+        image: "./images/Dory.jpeg"
     },
     {
         name: "Nemo",
@@ -17,7 +21,7 @@ const fishCollection = [
         species: "Clown Fish",
         length: 5,
         location: "Great Barrier Reef",
-        image: ""
+        image: "./images/Nemo.jpeg"
     },
     {
         name: "Bruce",
@@ -25,7 +29,20 @@ const fishCollection = [
         species: "Great White Shark",
         length: 25,
         location: "Great Barrier Reef",
-        image: ""
+        image: "./images/Bruce.jpeg"
     },
-
+    {
+        name: "Bailey",
+        food: "Small Fish, Squid",
+        species: "Beluga Whale",
+        length: 12,
+        location: "North Atlantic Ocean",
+        image: "./images/BelugaWhale.jpg"
+    }
+         
 ]
+
+export const useFish = () => {
+    return fishCollection.slice()
+}
+
