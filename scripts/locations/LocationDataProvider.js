@@ -8,7 +8,7 @@ const LocationDataCollection = [
         description: "second-largest of the world's oceans, with an area of about 106,460,000 square kilometers."
     },
     {
-        image: "./images/GreatBarrieReef.jpeg",
+        image: "./images/GreatBarrierReef.jpeg",
         alt: "closeup image of colorful coral with lots of small orange fish against the blue background of ocean",
         name: "Great Barrier Reef",
         url: "http://www.gbrmpa.gov.au/",
