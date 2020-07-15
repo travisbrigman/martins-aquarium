@@ -18,10 +18,6 @@ export const LocationList = () => {
 
     //add to the existing HTML in content element
     contentElement.innerHTML += `
-    <article class="locations">
-        <h2>Locations I've Harvested Fish From</h2>
-            ${locationsHTMLRepresentation}
-    </article>
-            
+            ${locationsHTMLRepresentation}  
     `
 }
