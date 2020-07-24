@@ -9,15 +9,8 @@ export const TipList = () => {
     const contentElement = document.querySelector(".tip")
     const allTheTips = useTip()
 
-    // Generate all of the HTML for all of the fish
-    let tipsHTMLRepresentation = ""
-    for (const eachTip of allTheTips) {
-     tipsHTMLRepresentation += Tip(eachTip)
-    }
-    console.log(tipsHTMLRepresentation)
-
     //add to the existing HTML in content element
     contentElement.innerHTML += `
-            ${tipsHTMLRepresentation}
+            ${allTheTips.map(eachTip => Tip(eachTip)).join("")}
     `
 }

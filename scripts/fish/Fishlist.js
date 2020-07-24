@@ -9,18 +9,15 @@ export const FishList = () => {
     const contentElement = document.querySelector(".fishes")
     const allTheFish = useFish()
 
-    // Generate all of the HTML for all of the fish
-    let fishHTMLRepresentation = ""
-    for (const eachFish of allTheFish) {
-     fishHTMLRepresentation += Fish(eachFish)
-    }
-    console.log(fishHTMLRepresentation)
-
     //add to the existing HTML in content element
     contentElement.innerHTML += `
         <article class="fishList">
-            ${fishHTMLRepresentation}
+            ${allTheFish.map(fish => Fish(fish)).join("")}
         </article>
     `
 }
+
+
+
+
 
